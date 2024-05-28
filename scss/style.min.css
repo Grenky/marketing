@@ -1,0 +1,161 @@
+@media (max-width: 1416px) {
+  .wrapper .header, .wrapper .first-screen, .wrapper .second-block, .wrapper .block3, .wrapper .block4, .wrapper .block5, .wrapper .footer {
+    padding: 0px 100px;
+  }
+}
+@media (max-width: 1316px) {
+  .wrapper .header, .wrapper .first-screen, .wrapper .second-block, .wrapper .block3, .wrapper .block4, .wrapper .block5, .wrapper .footer {
+    padding: 0px 50px;
+  }
+}
+@media (max-width: 1216px) {
+  .wrapper .header, .wrapper .first-screen, .wrapper .second-block, .wrapper .block3, .wrapper .block4, .wrapper .block5, .wrapper .footer {
+    padding: 0px 10px;
+  }
+}
+@media (max-width: 800px) {
+  .wrapper .header .nav-menu {
+    display: none;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    right: 0;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    z-index: 2;
+  }
+  .wrapper .header .nav-menu .menu-container {
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+  }
+  .wrapper .header .nav-menu .menu-container li {
+    margin: 10px 0;
+  }
+  .wrapper .header .burger {
+    display: flex;
+  }
+  .wrapper .header .nav-menu.active {
+    display: flex;
+  }
+}
+@media (max-width: 848px) {
+  .wrapper .first-screen .first-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .wrapper .first-screen .first-container .first-right {
+    width: 100%;
+  }
+}
+@media (max-width: 848px) and (max-width: 460px) {
+  .wrapper .first-screen .first-container .first-img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 1041px) {
+  .wrapper .second-block .second-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 1041px) {
+  .wrapper .second-block .second-container .second-left {
+    width: 100%;
+  }
+}
+.wrapper .second-block .second-container .second-right {
+  width: 100%;
+}
+@media (max-width: 918px) {
+  .wrapper .second-block .second-container .second-right img {
+    width: 100%;
+  }
+}
+@media (max-width: 966px) {
+  .wrapper .block3 .block3-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 1030px) {
+  .wrapper .block4 .block4-title {
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 1030px) and (max-width: 570px) {
+  .wrapper .block4 .block4-title {
+    margin: 50px auto;
+  }
+}
+@media (max-width: 1030px) {
+  .wrapper .block4 .block4-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .wrapper .block4 .block4-content .block4-content-block {
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+}
+@media (max-width: 1030px) and (max-width: 570px) {
+  .wrapper .block4 .block4-content .block4-content-block {
+    flex-flow: column;
+    align-items: center;
+  }
+}
+@media (max-width: 1030px) and (max-width: 570px) {
+  .wrapper .block4 .block4-content .block4-content-block .block4-purple {
+    width: 100%;
+  }
+}
+@media (max-width: 1030px) and (max-width: 570px) {
+  .wrapper .block4 .block4-content .block4-content-block .block4-orange {
+    width: 100%;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+  .wrapper .block4 .block4-content .block4-content-block .block4-orange .block4-orange-first, .wrapper .block4 .block4-content .block4-content-block .block4-orange .block4-orange-second {
+    width: 47%;
+    flex-flow: column;
+  }
+}
+@media (max-width: 1030px) and (max-width: 460px) {
+  .wrapper .block4 .block4-img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 844px) {
+  .wrapper .block5 .block5-content .block5-content-title {
+    padding: 0px 95px;
+  }
+}
+@media (max-width: 671px) {
+  .wrapper .block5 .block5-content .block5-content-title {
+    padding: 0px 20px;
+  }
+}
+@media (max-width: 466px) {
+  .wrapper .block5 .block5-content .block5-content-title {
+    padding: 0px;
+  }
+}
+@media (max-width: 448px) {
+  .wrapper .block5 .block5-content .block5-content-title {
+    font-size: 36px;
+  }
+}
+@media (max-width: 552px) {
+  .wrapper .footer .footer-nav .footer-nav-block {
+    flex-flow: column;
+  }
+  .wrapper .footer .footer-nav .footer-nav-block li {
+    margin-bottom: 15px;
+  }
+}/*# sourceMappingURL=style.min.css.map */
